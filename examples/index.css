@@ -1,0 +1,17 @@
+@import '../index.css';
+
+body {
+  margin: 0;
+}
+
+.grid {
+  width: 960px;
+  margin: 0 auto;
+}
+
+@for $i from 1 to 12 {
+  .col-$i {
+    background-color: rgba(100, 200, 200, 0.5);
+    border: 1px solid #5F5F5F;
+  }
+}

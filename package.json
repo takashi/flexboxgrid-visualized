@@ -1,0 +1,45 @@
+{
+  "name": "flexboxgrid-visualized",
+  "version": "0.0.1",
+  "description": "flexbox grid system with some visual for rapid prototyping.",
+  "main": "dist/index.css",
+  "scripts": {
+    "watch": "gulp watch",
+    "watch:example": "gulp watch:example",
+    "build": "stylefmt dist/index.css && gulp build",
+    "build:example": "gulp build:example"
+  },
+  "keywords": [
+    "css",
+    "library",
+    "design",
+    "prototyping",
+    "prototype",
+    "style",
+    "styling"
+  ],
+  "author": "Takashi Nakagawa",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^6.4.1",
+    "babel": "^6.5.2",
+    "babel-preset-es2015": "^6.14.0",
+    "gulp": "^3.9.1",
+    "gulp-csso": "^2.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^6.2.0",
+    "gulp-util": "^3.0.7",
+    "postcss-custom-media": "^5.0.1",
+    "postcss-custom-properties": "^5.0.1",
+    "postcss-flexbugs-fixes": "^2.0.0",
+    "postcss-for": "^2.1.1",
+    "postcss-import": "^8.1.2",
+    "stylefmt": "^4.3.1",
+    "stylelint": "^7.3.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
+}
