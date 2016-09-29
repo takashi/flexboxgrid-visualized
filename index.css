@@ -12,7 +12,7 @@
   height: 30px;
 }
 
-.without-outside-gutter.row {
+.without-outside-gutter > .row {
   margin-right: var(--col-gutter-compensation);
   margin-left: var(--col-gutter-compensation);
 }
