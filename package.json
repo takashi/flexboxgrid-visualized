@@ -1,6 +1,6 @@
 {
   "name": "flexboxgrid-visualized",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "flexbox grid system with some visual for rapid prototyping.",
   "main": "dist/index.css",
   "scripts": {
